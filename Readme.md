@@ -1,16 +1,15 @@
 # (MPWAR Performance) VirtualMachine
 
-To run this machine:
+## How to run the VM
+
 ```
 cd mpwarAnsible/vagrant
 vagrant up 
 ```
 
-## Important files and folders
-- share/www/html :  here you can put php or html code. Then using the ip 192.168.33.50 in your browser you can run the code.
-
 ## What has this machine?
 
+- **Apache**, port: 80
 - **Mysql**, port: 3306
 - **Blackfire**
 - **RabbitMQ**, port: 5672
